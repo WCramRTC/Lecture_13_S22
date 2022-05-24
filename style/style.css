@@ -2,3 +2,10 @@ body {
 
 background-color: pink;
 }
+
+#formExample {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 50%;
+    gap: 5px;
+}

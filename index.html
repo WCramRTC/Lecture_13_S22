@@ -5,10 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lecture 13 - S22 - Inputs</title>
+    <link href="style/reset.css" rel="stylesheet">
+    <link href="style/style.css" rel="stylesheet">
+
 </head>
-<body>
-    
-    <form action="https://www.rtc.edu" method="post">
+<body id="body">
+    <!-- get and post -->
+    <!-- <form id="formExample" action="https://www.rtc.edu">
+
+        <label for="fName">First Name </label>
+        <input id="txtFirstName" name="fName" placeholder="First Name"></input>
+        <label for="lName">Last Name</label>
+        <input id="txtLastName" name="lName" placeholder="Last Name"></input>
+        <label for="chkRed">Birthday</label>
+        <input id="birthday" type="date">
+
+        <label for="chkRed">Color Red</label>
+        <input id="chkColor" name="chkRed" value="red" type="checkbox"><br>
+
+        <label>Blue</label><input type="radio" name="blue">
+        <label>Red</label><input type="radio" name="blue">
+        <label>Orange</label><input type="radio" name="blue">
+        <label>Yellow</label><input type="radio" name="blue">
+        <input type="button" id="btnDisplay" value="Display"></input>
+        <input type="submit">
+    </form> -->
+
+    <form action="https://www.google.com">
+        <input id="txtUserInput" value="My Name"></input>
+        <input type="button" id="btnDisplayColor" value="Display"></input>
+        <!-- <input type="submit"><br>
+        <input type="email"><br>
+        <input type="file"><br>
+        <input type="number" min="1" max="5"><br>
+        <input type="range"> -->
+        <input id="cpColor" type="color">
+        <br>
+        <select>
+            <option>AMG</option>
+            <option>Hyundai</option>
+        </select><br>
+        <textarea name="textArea">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum soluta a corrupti voluptates ipsum illo fugit, voluptatibus labore. Magni sunt ipsam explicabo itaque necessitatibus unde est fuga at debitis natus.</textarea>
+    </form>
+
+    <!-- <form action="https://www.rtc.edu" method="post">
         <input type="text" id="userName" name="userName" value="Enter Something">
         <br>
         <input type="submit">
@@ -21,8 +61,8 @@
         </select>
 
         <button>adsfasd</button>
-    </form>
+    </form> -->
 
-
+    <script src="script/js.js"></script>
 </body>
 </html>
